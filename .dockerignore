@@ -1,0 +1,10 @@
+﻿.git
+.gitignore
+README.md
+*.log
+.env
+.env.*
+Dockerfile.*
+compose.override.yaml
+node_modules
+__pycache__
