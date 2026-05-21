@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: docker-lab
+  labels:
+    app.kubernetes.io/name: docker-lab
+    
