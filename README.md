@@ -2,6 +2,7 @@
 
 ## Purpose
 
+> Branch protection is enabled for `main`, requiring PR validation before merge.
 This lab teaches the Docker foundations Kevin needs before moving deeper into Kubernetes, CI/CD, and platform engineering. It demonstrates how to build a custom image, run containers, manage configuration, use Docker Compose, connect multiple services, and persist state with volumes.
 
 ## Architecture
