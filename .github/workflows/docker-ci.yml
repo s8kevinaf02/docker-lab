@@ -29,7 +29,7 @@ jobs:
         run: docker compose build web
 
       - name: Scan image with Trivy
-        uses: aquasecurity/trivy-action@0.35.0
+        uses: aquasecurity/trivy-action@v0.36.0
         with:
           image-ref: kevin-docker-lab:v4
           format: table
@@ -39,7 +39,7 @@ jobs:
           exit-code: "0"
 
       - name: Enforce critical vulnerability gate
-        uses: aquasecurity/trivy-action@0.35.0
+        uses: aquasecurity/trivy-action@v0.36.0
         with:
           image-ref: kevin-docker-lab:v4
           format: table
