@@ -1,7 +1,7 @@
 ﻿services:
   web:
     build: .
-    image: kevin-docker-lab:v4
+    image: kevin-docker-lab:v5
     ports:
       - "8082:8080"
     environment:
