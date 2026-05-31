@@ -16,7 +16,7 @@ flowchart LR
 
 Current services:
 
-- `web`: built from the local `Dockerfile`, tagged as `kevin-docker-lab:v4` using a pinned `nginx:1.31-alpine` base image, published on `localhost:8082`.
+- `web`: built from the local `Dockerfile`, tagged as `kevin-docker-lab:v5` using a pinned `nginx:1.31-alpine` base image, published on `localhost:8082`.
 - `redis`: runs `redis:7-alpine`, available only inside the Compose network on port `6379`.
 - `redis-data`: named Docker volume mounted at `/data` inside Redis for persistence.
 
@@ -264,9 +264,9 @@ Start with the least privilege possible and add back only what the application p
 Docker Scout scan commands:
 
 ```powershell
-docker scout quickview kevin-docker-lab:v4
-docker scout cves kevin-docker-lab:v4
-docker scout recommendations kevin-docker-lab:v4
+docker scout quickview kevin-docker-lab:v5
+docker scout cves kevin-docker-lab:v5
+docker scout recommendations kevin-docker-lab:v5
 ```
 
 Current scan summary:
