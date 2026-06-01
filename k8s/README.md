@@ -13,4 +13,4 @@ These manifests deploy the Docker lab web image to Kubernetes.
 The Deployment uses an immutable GHCR image tag:
 
 ```text
-ghcr.io/s8kevinaf02/docker-lab:0f2d7b3ab46670c8b2dfb8baf7e71e0ded20fbd7
+ghcr.io/s8kevinaf02/docker-lab:52a0bdffe49be6fffebe77d41cd9150d54b25dc

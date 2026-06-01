@@ -66,8 +66,8 @@ jobs:
       - name: Tag image for GHCR
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
-          docker tag kevin-docker-lab:v4 $IMAGE_NAME:latest
-          docker tag kevin-docker-lab:v4 $IMAGE_NAME:${{ github.sha }}
+          docker tag kevin-docker-lab:v5 $IMAGE_NAME:latest
+          docker tag kevin-docker-lab:v5 $IMAGE_NAME:${{ github.sha }}
 
       - name: Push image to GHCR
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
